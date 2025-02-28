@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#search {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tool-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tool-card h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.tool-card p {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.tool-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.tool-card a:hover {
+  text-decoration: underline;
+}
